@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAccent"
+    tools:context=".AboutFragment">
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        app:cardCornerRadius="16dp"
+        android:layout_centerInParent="true"
+        android:elevation="8dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="120dp"
+                android:src="@drawable/photo"
+                android:id="@+id/photo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muhammad Beni Fajri"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_below="@id/photo"
+                android:id="@+id/nama"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seorang Mahasiswa jurusan teknologi informasi\n Politeknik Negeri Padang\nE-Mail : m.b.fajri06@gmail.com"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/nama"
+                android:layout_marginTop="8dp"
+                android:textAlignment="center"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

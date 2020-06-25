@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#56C6F3</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#56C6F3</color>
+    <color name="splash">#000D28</color>
+
+    <color name="colorNavigarionIcon">#dae9f6</color>
+    <color name="colorNavigationText">#ffffff</color>
+</resources>
